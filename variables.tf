@@ -24,3 +24,8 @@ variable "subnet-name" {
     type      = string
     description = "subnet name"
 }
+
+variable "vpc-name" {
+    type      = string
+    description = "VPC name"
+}
